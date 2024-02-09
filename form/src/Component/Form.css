@@ -1,0 +1,36 @@
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-size: 40px;
+
+}
+body{
+    background-color:aquamarine;
+}
+.form-container {
+    width:600px;
+    height: 500px;
+    background-color:#dda0dd;
+    padding: 20px;
+    color:white;
+
+  }
+
+  input{
+    padding: 10px;
+    font-size: medium;
+    width:75%;
+    background-color:beige;
+    border: 1px solid rgb(127, 127, 31);
+    border-radius: 2px;
+  }
+  input[value]{
+    color:blueviolet;
+  }
+  .error{
+    color: red;
+    font-size: 14px;
+   
+  }
